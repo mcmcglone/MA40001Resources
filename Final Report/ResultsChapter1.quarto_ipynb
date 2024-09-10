@@ -1,0 +1,79 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Some work I did\n",
+        "\n",
+        "You might consider having a results chapter for each Aim that has been defined in @sec-intro (*note that I am cross referencing the previous chapter here*).\n",
+        "\n",
+        "\n",
+        "I am studying the equation\n",
+        "$$\n",
+        "y=kx^2,\n",
+        "$$ {#eq-quadratic}\n",
+        "where $k\\in\\Re$.\n",
+        "\n",
+        ":::{.callout-tip}\n",
+        "\n",
+        "Note that an equation is treated gramatically as words in a sentence. In the above equation I have used a comma after the equation and continued the sentence below.\n",
+        ":::\n",
+        "\n",
+        "Se @fig-label for plot (*note I am cross-referencing the figure here*). \n",
+        "\n",
+        "I have folded the code in the .html file. \n"
+      ],
+      "id": "d5182c3e"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "#| label: fig-label\n",
+        "#| fig-cap: A plot of $y(x)=x^2$ against $x$. @eq-quadratic was plotted. $k=1$.\n",
+        "#| code-fold: true\n",
+        "import numpy as np\n",
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "x=np.linspace(0,1,100)\n",
+        "y=x**2\n",
+        "\n",
+        "fig,ax=plt.subplots()\n",
+        "ax.plot(x,y)\n",
+        "ax.set_xlabel('$x$')\n",
+        "ax.set_ylabel('$y$')\n",
+        "plt.show()"
+      ],
+      "id": "fig-label",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        ":::{.callout-tip}\n",
+        "\n",
+        "Caption:\n",
+        "\n",
+        "- succintly describe the figure\n",
+        "- state what variables are plotted\n",
+        "- use cross-referencing to connect to the text\n",
+        "- Provide additional data needed to reproduce the figure (e.g. state parameter value or provide a reference to a table of parameter values.)\n",
+        ":::"
+      ],
+      "id": "aa47d33c"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Users/pmurray/Library/Python/3.9/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
