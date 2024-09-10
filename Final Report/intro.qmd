@@ -1,0 +1,22 @@
+# Introduction {#sec-intro}
+
+Provide a big picture introduction to your project.
+
+What are the key ideas that you need to introduce to the reader?
+Is there some historical context that you can provide (e.g. what was known about the problem before the technique/approach that you have considered was developed).
+
+Given that you have introduced the reader to some key background ideas, what are the aims of the work?
+
+Please note that we offer a broad range of project and the aims will reflect this. For example, you might aim to:
+
+ - work through a proof of a theorem
+ - develop a mathematical model of some system (that you will have introduced above)
+ - develop an implementation of a method to solve a certain class of problem
+ - apply a technique in the analysis of a dataset
+ -  etc.
+
+
+By the end of the introduction, you should have placed your project in context and outlined what you are going to do.
+
+
+Here is a reference (@knuth84).
