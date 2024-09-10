@@ -32,7 +32,7 @@ format:
   pdf:
     toc: True
     template-partials:
-        - "title.tex"
+        - "resources/title.tex"
     
     documentclass: scrreprt
     echo: false # This stops displaying the code that generates Python figures
