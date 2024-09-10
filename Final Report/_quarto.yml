@@ -9,7 +9,7 @@ book:
   author: "J Smith"
   date: "12/22/2023"
   downloads: pdf
-  cover-image: logo.png
+
   abstract: this is an abstract. Can you write an approx. ten sentence summary of your project? In one sentence what do you do (e.g. cryptography, analysis, numerical analysis, statistical modelling, optimisation etc.)? Why is this topic important? What is the key background? What re your Aims? What do you actually do? Final thought ...
   
   chapters:
@@ -17,8 +17,13 @@ book:
     - intro.qmd   
     - ResultsChapter1.qmd 
     - summary.qmd
-      
+  appendices:
+    - Appendix1.qmd
+
+
 bibliography: references.bib
+degreetype: BSc XXX
+affiliation: University of Dundee
 
 format:
   html:
@@ -26,18 +31,12 @@ format:
     code-fold: true
   pdf:
     toc: True
+    template-partials:
+        - "title.tex"
+    
     documentclass: scrreprt
     echo: false # This stops displaying the code that generates Python figures
-    include-in-header:
-      - text: |
-          \usepackage{chemarr}
-          \usepackage{lipsum}
-          \usepackage{tikz}
-          \AtBeginDocument{\thispagestyle{empty}
-          \begin{tikzpicture}[remember picture,overlay]
-          \node at (current page.center) {\includegraphics[width=0.2\paperwidth,height=0.2\paperheight,keepaspectratio]{logo.png}};
-          \end{tikzpicture}\clearpage}
-
+    
 execute:
   warning: false
      

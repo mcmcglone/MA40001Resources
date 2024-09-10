@@ -8,3 +8,9 @@ Reflect on your work (did you address the aims outlined at the start? what were 
 
 What are the main limitations of the work? 
 What would the next steps be?
+
+
+# References {.unnumbered}
+
+::: {#refs}
+:::
