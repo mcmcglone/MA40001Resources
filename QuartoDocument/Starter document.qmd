@@ -1,7 +1,0 @@
----
-title: "Hello, Quarto"
-format: pdf
----
-
-<!-- Insert content below -->
-This is a test Quarto document.
