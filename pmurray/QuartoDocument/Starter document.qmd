@@ -4,4 +4,4 @@ format: pdf
 ---
 
 <!-- Insert content below -->
-This is a first Quarto document.
+This is a *first* Quarto document.
