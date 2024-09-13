@@ -1,11 +1,11 @@
 # Statement on use of AI in your project
 
  
-Describe any use of  AI  in your project (e.g. CodePilot, ChatGPT).   
+If you made use of AI  in your project   
 
 -  *where* in the document has AI being used (e.g. specific sections, codes, figures etc.)
 - *what* tools were used?
-- describe *how*  AI used?
+- describe *how*  AI was used?
 
 
 
