@@ -1,0 +1,72 @@
+---
+title: "Presentation title"
+institute: "University of Dundee"
+date: 04-11-2024
+author: "J. Smith"
+format: 
+  revealjs:
+    html-math-method: mathjax
+    theme: [default, resources/custom.scss]
+    logo: resources/logo.png
+    template-partials:
+      - resources/title-slide.html
+---
+
+
+
+# Background
+
+# Importance of topic
+
+# Aims
+
+# Results
+
+# Discussion
+
+
+## A slide with nice images 
+
+::: {layout="[[60,-5,35], [100]]" layout-valign="bottom"}
+![UoD Botanic Gardens](images/map.001.jpeg){fig-alt="Map of the University of Dundee Botanic Gardens indicating the location of cyclamen hederifolium."}
+
+![*Cyclamen hederifolium*](images/flower-pink.jpg){fig-alt="Collection of pink cyclamen hederifolium."}
+
+:::
+
+
+
+## A slide with highlighted font
+
+- Use **highlighted text** to emphasise a key word.
+- But don't overuse this.
+
+:::{.callout-caution}
+## Pedagogical note
+
+Use this box to highlight an **important point**.
+:::
+
+## How do we support students in learning the distinction between bias and variation in Mathematics at Dundee? {.center}
+
+With experiential learning activities of course!
+
+## A slide with nested bullet points
+
+-   First nest bullet points
+-   Second point
+    -   Next nest of bullet points
+    -   And another
+-   Back to the third point
+
+## Mathematical typesetting
+
+Consider
+$$
+y=mx+c.
+$$
+
+Alternatively, in line $y=mx+c$.
+
+
+

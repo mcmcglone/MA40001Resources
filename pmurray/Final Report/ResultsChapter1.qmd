@@ -1,0 +1,47 @@
+# Some work I did
+
+You might consider having a results chapter for each Aim that has been defined in @sec-intro (*note that I am cross referencing the previous chapter here*).
+
+
+I am studying the equation
+$$
+y=kx^2,
+$$ {#eq-quadratic}
+where $k\in\Re$.
+
+:::{.callout-tip}
+
+Note that an equation is treated gramatically as words in a sentence. In the above equation I have used a comma after the equation and continued the sentence below.
+:::
+
+Se @fig-label for plot (*note I am cross-referencing the figure here*). 
+
+I have folded the code in the .html file. 
+
+```{python}
+#| label: fig-label
+#| fig-cap: "A plot of $y(x)=x^2$ against $x$. @eq-quadratic was plotted. $k=1$."
+#| code-fold: True
+import numpy as np
+import matplotlib.pyplot as plt
+
+x=np.linspace(0,1,100)
+y=x**2
+
+fig,ax=plt.subplots()
+ax.plot(x,y)
+ax.set_xlabel('$x$')
+ax.set_ylabel('$y$')
+plt.show()
+
+```
+
+:::{.callout-tip}
+
+Caption:
+
+- succintly describe the figure
+- state what variables are plotted
+- use cross-referencing to connect to the text
+- Provide additional data needed to reproduce the figure (e.g. state parameter value or provide a reference to a table of parameter values.)
+:::
