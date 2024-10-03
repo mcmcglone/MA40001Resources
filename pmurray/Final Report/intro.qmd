@@ -2,6 +2,9 @@
 
 Provide a big picture introduction to your project.
 
+
+Suggestes structure:
+
 What are the key ideas that you need to introduce to the reader?
 Is there some historical context that you can provide (e.g. what was known about the problem before the technique/approach that you have considered was developed).
 
@@ -17,6 +20,8 @@ Please note that we offer a broad range of project and the aims will reflect thi
 
 
 By the end of the introduction, you should have placed your project in context and outlined what you are going to do.
+
+
 
 
 Here is a reference (@knuth84).
